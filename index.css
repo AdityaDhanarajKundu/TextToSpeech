@@ -40,4 +40,50 @@ textarea{
     margin-bottom: 30px;
     resize: none;
 }
+textarea::placeholder{
+    color: white;
+    font-size: 15px;
+}
 
+.row{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background: #ff2963;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+    justify-self: flex-start;
+}
+
+select{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+}
